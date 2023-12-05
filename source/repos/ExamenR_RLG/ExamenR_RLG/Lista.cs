@@ -66,18 +66,22 @@ namespace ExamenR_RLG
         {
             if (!ListaVacia())
             {
-                for (int i = 0; i<5;i++) {
-                    
-                        Nodo actual = Inicio;
-                    if (actual.vehiculo.Año > actual.Siguiente.vehiculo.Año) {
-                        while (actual != null)
-                        {
-                            Console.WriteLine
-                            ($"Marca: {actual.vehiculo.Marca} | Modelo: {actual.vehiculo.Modelo} | Año de Lanzamiento: {actual.vehiculo.Año}");
-                         actual = actual.Siguiente;
+                Nodo actual = Inicio;
+                while (actual != null) {
+                    Nodo siguiente = actual.Siguiente;
+                    while (siguiente !=null) {
+                        
+                        if (actual.vehiculo.Año > actual.Siguiente.vehiculo.Año) {
+                            carro tem = siguiente.vehiculo;
+                            siguiente.vehiculo = actual.vehiculo;
+                            actual.vehiculo = tem;
+
                         }
+                        siguiente = siguiente.Siguiente;
                     }
+                    actual = actual.Siguiente;
                 }
+                mostrarFlota();
             }
             else { Console.WriteLine("La lista esta vacia"); }
 
@@ -95,6 +99,7 @@ namespace ExamenR_RLG
                         Console.WriteLine($"Marca: {actual.vehiculo.Marca} | Modelo: {actual.vehiculo.Modelo} | Año de Lanzamiento: {actual.vehiculo.Año}");
 
                     }
+                    actual= actual.Siguiente;
                 }
             }
         }

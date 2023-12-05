@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\CD16\\source\\repos\\ExamenR_RLG\\ExamenR_RLG\\ExamenR_RLG.csproj": {}
+    "C:\\Users\\cd14\\Desktop\\listo\\source\\repos\\ExamenR_RLG\\ExamenR_RLG\\ExamenR_RLG.csproj": {}
   },
   "projects": {
-    "C:\\Users\\CD16\\source\\repos\\ExamenR_RLG\\ExamenR_RLG\\ExamenR_RLG.csproj": {
+    "C:\\Users\\cd14\\Desktop\\listo\\source\\repos\\ExamenR_RLG\\ExamenR_RLG\\ExamenR_RLG.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\CD16\\source\\repos\\ExamenR_RLG\\ExamenR_RLG\\ExamenR_RLG.csproj",
+        "projectUniqueName": "C:\\Users\\cd14\\Desktop\\listo\\source\\repos\\ExamenR_RLG\\ExamenR_RLG\\ExamenR_RLG.csproj",
         "projectName": "ExamenR_RLG",
-        "projectPath": "C:\\Users\\CD16\\source\\repos\\ExamenR_RLG\\ExamenR_RLG\\ExamenR_RLG.csproj",
-        "packagesPath": "C:\\Users\\CD16\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\CD16\\source\\repos\\ExamenR_RLG\\ExamenR_RLG\\obj\\",
+        "projectPath": "C:\\Users\\cd14\\Desktop\\listo\\source\\repos\\ExamenR_RLG\\ExamenR_RLG\\ExamenR_RLG.csproj",
+        "packagesPath": "C:\\Users\\cd14\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\cd14\\Desktop\\listo\\source\\repos\\ExamenR_RLG\\ExamenR_RLG\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\CD16\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\cd14\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -60,7 +60,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
         }
       }
     }

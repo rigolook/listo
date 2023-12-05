@@ -5,9 +5,12 @@
         static void Main(string[] args)
         {
             Lista list = new Lista();
-            carro carro = new carro();
-            for (int i = 0;i < 2; i++)
+
+            Console.WriteLine("Escriba la cuantos carros quieres agregar:");
+            int cantidad = Convert.ToInt32(Console.ReadLine());
+            for (int i = 0;i < cantidad; i++)
             {
+                carro carro = new carro();
                 Console.WriteLine("Escribe la Marca:");
                 carro.Marca = Console.ReadLine();
                 Console.WriteLine("Escribe el Modelo:");
@@ -21,10 +24,15 @@
 
 
             list.mostrarFlota();
-
+            Console.WriteLine();
             Console.WriteLine("Escribe la marca a buscar:");
             string marcas = Console.ReadLine();
             list.busquedaMarca(marcas);
+
+            Console.WriteLine();
+
+            Console.WriteLine("Lista ordenada:");
+            list.ordenarAño();
 
             
         }
